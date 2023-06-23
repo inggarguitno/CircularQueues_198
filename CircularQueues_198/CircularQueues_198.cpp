@@ -48,7 +48,7 @@ public:
 
 		//cek jika antrian memiliki satu elemen
 		if (FRONT == REAR) {
-			FRONT = -1;
+			FRONT = -1; 
 			REAR = -1;
 		}
 		else {
