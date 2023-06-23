@@ -19,7 +19,7 @@ public:
 
 		//cek bila antrian penuh
 		if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
-			cout << "\nqueues overflow\n";
+			cout << "\nqueues overflow\n"; 
 			return;
 		}
 
