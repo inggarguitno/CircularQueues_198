@@ -85,7 +85,7 @@ public:
 			while (FRONT_position <= n - 1) {
 				cout << queue_array[FRONT_position] << "  ";
 				FRONT_position++;
-			}
+			} 
 
 			FRONT_position = 0;
 			//interasi dari awal array hingga REAR
